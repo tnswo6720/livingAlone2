@@ -1,0 +1,16 @@
+export default .login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container form label,
+.login-container form input[type="submit"] {
+  margin-bottom: 10px;
+}
